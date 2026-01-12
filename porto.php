@@ -763,7 +763,7 @@
                         <span class="tech-tag">JavaScript</span>
                         <span class="tech-tag">PHP</span>
                     </div>
-                    <a href="Bmikalku.php" class="btn" style="width:100%;text-align:center;">Lihat Demo</a>
+                    <a href="index.html" class="btn" style="width:100%;text-align:center;">Lihat Demo</a>
                 </div>
             </div>
             
