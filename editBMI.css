@@ -1,0 +1,106 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: #007bff;
+  padding: 15px 30px; 
+ 
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-bmi {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  
+  margin-left: auto; /* ini yang bikin dorong yak */
+  display: flex;      
+  list-style: none; 
+  gap: 25px;        /* Jarak antar item menu */
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* styling list item link */
+.navbar-menu li a {
+  color: #fff; 
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-menu li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section */
+section {
+  position: relative;
+  background: url('image.png') 
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+section::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+section div {
+  position: relative;
+  z-index: 1;
+}
+
+section h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+section button {
+  padding: 12px 25px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+section button:hover {
+  background: #f1f1f1;
+}
+
